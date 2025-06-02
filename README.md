@@ -106,12 +106,15 @@ Resposta:
 ```bash
 "HIPERCARD"
 ```
-:octocat: Desenvolvedores e Contribuintes
+
+##:octocat: Desenvolvedores e Contribuintes
 | [<img src="https://avatars2.githubusercontent.com/u/101765683?v=4" width=115><br><sub>Washington Yoshimatsu</sub>](https://github.com/wkyoshimatsu) |
 | :---: |
 
-:memo: Tarefas em aberto
+##:memo: Tarefas em aberto
+
 :small_blue_diamond: Implementar suporte a novos tipos de cartões.
+
 :small_blue_diamond: Adicionar documentação Swagger para os endpoints REST.
 
 <hr></hr> Copyright :copyright: 2025 - Credit Card Validator
