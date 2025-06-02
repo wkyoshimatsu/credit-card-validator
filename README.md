@@ -93,18 +93,23 @@ mvn spring-boot:run
 5. Acesse a aplicação no navegador ou via ferramenta de testes REST (como Postman) no seguinte endereço:
 
    - Validação de Cartão
-     - URL: /api/validate-card
+     - URL: /validate-card
      -  Método: POST
      - Entrada: Número do cartão no corpo da requisição (JSON).
      - Saída: Tipo do cartão (JSON).
 
 Exemplo de requisição:
 ```bash
+curl -X POST http://localhost:8080/validate-card -H "Content-Type: application/json" -d "\"6062825624254001\""
+```
+Resposta:
+```bash
 "HIPERCARD"
 ```
 :octocat: Desenvolvedores e Contribuintes
-<img src="https://avatars2.githubusercontent.com/u/101765683?v=4"></img>
-<sub>Washington Yoshimatsu</sub>
+| [<img src="https://avatars2.githubusercontent.com/u/101765683?v=4" width=115><br><sub>Washington Yoshimatsu</sub>](https://github.com/wkyoshimatsu) |
+| :---: |
+
 :memo: Tarefas em aberto
 :small_blue_diamond: Implementar suporte a novos tipos de cartões.
 :small_blue_diamond: Adicionar documentação Swagger para os endpoints REST.
